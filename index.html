@@ -1,50 +1,52 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
-
-<div id="wrapper">
-    <div class="main-content">
-      <div class="header">
-        <img src="https://th.bing.com/th/id/Rff854302b1aeaf008c572d7d015a0317?rik=KH%2b6kyi5Sbtz7g&riu=http%3a%2f%2fwww.edigitalagency.com.au%2fwp-content%2fuploads%2finstagram-logo-text-black-png.png&ehk=3WblCpehpkaZ42dmIfwIPRBidJuEc7s7XPmC5WXHp2Y%3d&risl=&pid=ImgRaw" />
-      </div>
-      <div class="l-part">
-        <input type="text" placeholder="Phone number, username, or email" class="input-1" id="user"/>
-        <div class="overlap-text">
-          <input type="password" placeholder="Password" class="input-2" id="pass" />
-          <a href="#">Forgot?</a>
+  
+  <div class="container">
+    <div class="box">
+      <div class="heading"></div>
+      <div class="login-form">
+        <div class="field">
+          <input
+            id="username"
+                 oninput= 'a()'
+            type="name"
+            placeholder="Phone number, username, or email"
+          />
+          <label for="username">Phone number, username, or email</label>
         </div>
-        <button type="button" value="Log in" class="btn" onclick="x()">Log in</button>
+        <div class="field">
+          <input id="password" type="password" placeholder="password" oninput='a()'/>
+          <label for="password">Password</label>
+        </div>
+          <button class="login-button" id="lgn" onclick="x()">Log In</button>
+          <div class="separator">
+            <div class="line"></div>
+            <p>OR</p>
+            <div class="line"></div>
+          </div>
+        <div class="other">
+          <button class="fb-login-btn" type="button">
+            <i class="fa fa-facebook-official fb-icon"></i>
+            <span class="">Log in with Facebook</span>
+          </button>
+          <a class="forgot-password" href="#">Forgot password?</a>
+        </div>
       </div>
-      
     </div>
-    <div class="sub-content">
-      <div class="s-part">
-        Don't have an account? <a href="https://www.instagram.com/accounts/emailsignup/">Sign up</a>
-      </div>
-      
+    <div class="box">
+      <p>Don't have an account? <a class="signup" href="#">Sign Up</a></p>
     </div>
-    <div class="s-part">
-    <p>Get the app.</p>
-    <p></p>
     <img alt="Available on the App Store" class="Rt8TI " src="https://560degree.com/images/apple-google.png">
-    <!-- <img alt="Available on the App Store" class="Rt8TI " src="https://www.loxone.com/enus/wp-content/uploads/sites/13/2017/09/IC_button-app-store@2x-1.png-1.png"> -->
-  </div>
   </div>
   
-  
-  
-  
-  
-    
 </body>
 <script src="index.js"></script>
 </html>
